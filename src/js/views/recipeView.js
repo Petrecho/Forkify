@@ -121,3 +121,4 @@ export const updateServingsIngredients = recipe => {
         el.textContent = formatCount(recipe.ingredients[i].count);
     });
 };
+
